@@ -1,0 +1,67 @@
+<html>
+<title> assigment  </title>
+
+<style>
+
+table, td, th {
+  border: 1px solid black;
+
+}
+
+table {
+
+ width: 50%;
+  border-collapse: collapse;
+}
+
+th{
+
+right : 550;
+
+}
+
+
+</style>
+
+<body>
+
+<script>
+
+
+do{
+
+ Name = prompt("User Name:" , "Enter your name"); 
+
+}while (isFinite(Name))
+
+do{
+
+ BirthYear = prompt("Birth Year:" , "Enter your Birth Year"); 
+
+}while (!isFinite(BirthYear ));
+     
+
+</script>
+
+<table >
+  <tr>
+    <th>Name : </th>
+    <td> <script> document.write(Name); </script> </td>
+  </tr>
+
+<tr>
+  <th>Birth year : </th>
+    <td> <script> document.write( BirthYear); </script>  </td>
+  </tr>
+
+<tr>
+  <th>Age : </th>
+    <td> 
+<script> document.write(eval(2021-BirthYear) ); </script> </td>
+  </tr>
+
+
+</table>
+
+</body>
+</html>
