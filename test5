@@ -1,0 +1,21 @@
+<html>
+<title> assighment5 </title>
+
+<body>
+
+<script> function headers() {
+for(num = 6; num > 0 ; num--) {
+  document.write("<h"+num+">" + "welcome to my page" + "</h"+num+">");
+  }
+}
+</script>
+
+<script> 
+
+headers();
+
+</script>
+
+
+</body>
+</html>
