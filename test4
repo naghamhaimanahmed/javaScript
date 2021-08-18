@@ -1,0 +1,36 @@
+<html>
+<title> assighment 4 </title>
+
+<body>
+
+<script>
+
+
+do{
+
+ Name = prompt("User Name:" , "Enter your name"); 
+
+}while (isFinite(Name))
+
+do{
+
+ BirthYear = prompt("Birth Year:" , "Enter your Birth Year"); 
+
+}while (!isFinite(BirthYear ));
+     
+
+</script>
+
+   <script> document.write(" <b> Name: </b> " +  Name); </script> 
+
+<br> <br>  
+
+     <script> document.write("<b> Birth year : </b>"  + BirthYear); </script>  
+
+<br> <br>  
+    
+<script> document.write(" <b> Age :  </b> " + eval(2021-BirthYear) ); </script> 
+
+
+</body>
+</html>
